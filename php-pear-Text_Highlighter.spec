@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.7.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Summary:	Syntax highlighting
 License:	PHP License
 Group:		Development/PHP
