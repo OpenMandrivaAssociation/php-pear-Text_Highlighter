@@ -45,6 +45,8 @@ rm -rf %{buildroot}%{_datadir}/pear/docs
 rm -rf %{buildroot}%{_datadir}/pear/tests
 rm -rf %{buildroot}%{_datadir}/pear/data/TODO
 
+rm -f %{buildroot}%{_bindir}/generate*
+
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
@@ -53,7 +55,6 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%defattr(-,root,root)
 %doc %{upstream_name}-%{version}/README
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/data/%{upstream_name}
