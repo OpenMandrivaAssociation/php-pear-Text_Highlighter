@@ -5,7 +5,7 @@
 Summary:	Syntax highlighting
 Name:		php-pear-%{modname}
 Version:	0.7.3
-Release:	6
+Release:	7
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Text_Highlighter/
