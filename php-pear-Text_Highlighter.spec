@@ -8,7 +8,7 @@ Version:	0.7.3
 Release:	11
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/Text_Highlighter/
+Url:		https://pear.php.net/package/Text_Highlighter/
 Source0:	http://download.pear.php.net/package/Text_Highlighter-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
